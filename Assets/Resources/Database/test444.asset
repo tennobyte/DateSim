@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6439693544869864245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f92dc8bf59ff6499fa4fb285ad7b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindowRect:
+    serializedVersion: 2
+    x: 957.7784
+    y: 176.47699
+    width: 200
+    height: 160
+  WindowTitle: Dialog
+  SelectedNodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    Occupied: 0
+    Parent: {fileID: 0}
+    ConnectedNode: {fileID: 0}
+  NodeInput:
+    Rectangle:
+      serializedVersion: 2
+      x: 1018.1481
+      y: 324.385
+      width: 25
+      height: 25
+    Occupied: 1
+    Parent: {fileID: -6439693544869864245}
+    ConnectedNodes:
+    - {fileID: -2200732861377277216}
+  IsDeleted: 0
+  currentDialog:
+    CharactertActions: []
+    CharacterAnimations: []
+    CharacterText:
+      Character: 0
+      Text: 
+  NodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 1183.1481
+      y: 434.385
+      width: 25
+      height: 25
+    Occupied: 0
+    Parent: {fileID: -6439693544869864245}
+    ConnectedNode: {fileID: 0}
+--- !u!114 &-2200732861377277216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff298d26c4e973747886a09361a893d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindowRect:
+    serializedVersion: 2
+    x: 321.42493
+    y: 326.54913
+    width: 200
+    height: 100
+  WindowTitle: Start
+  SelectedNodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 680.78595
+      y: 906.619
+      width: 25
+      height: 25
+    Occupied: 1
+    Parent: {fileID: -2200732861377277216}
+    ConnectedNode: {fileID: -6439693544869864245}
+  NodeInput:
+    Rectangle:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    Occupied: 0
+    Parent: {fileID: 0}
+    ConnectedNodes: []
+  IsDeleted: 0
+  NodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 546.7946
+      y: 524.45715
+      width: 25
+      height: 25
+    Occupied: 1
+    Parent: {fileID: -2200732861377277216}
+    ConnectedNode: {fileID: -6439693544869864245}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c1486a80bc224c4587ee7bdf2a3c445, type: 3}
+  m_Name: test444
+  m_EditorClassIdentifier: 
+  Name: test444
+  Nodes:
+  - {fileID: -2200732861377277216}
+  - {fileID: 2157820973417789890}
+  - {fileID: -6439693544869864245}
+  - {fileID: 6126988591235895860}
+--- !u!114 &2157820973417789890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f92dc8bf59ff6499fa4fb285ad7b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindowRect:
+    serializedVersion: 2
+    x: 623.6607
+    y: -32.934753
+    width: 200
+    height: 160
+  WindowTitle: Dialog
+  SelectedNodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    Occupied: 0
+    Parent: {fileID: 0}
+    ConnectedNode: {fileID: 0}
+  NodeInput:
+    Rectangle:
+      serializedVersion: 2
+      x: 684.0304
+      y: 114.97327
+      width: 25
+      height: 25
+    Occupied: 0
+    Parent: {fileID: 2157820973417789890}
+    ConnectedNodes: []
+  IsDeleted: 0
+  currentDialog:
+    CharactertActions: []
+    CharacterAnimations: []
+    CharacterText:
+      Character: 0
+      Text: 
+  NodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 849.0304
+      y: 224.97327
+      width: 25
+      height: 25
+    Occupied: 0
+    Parent: {fileID: 2157820973417789890}
+    ConnectedNode: {fileID: 0}
+--- !u!114 &6126988591235895860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f92dc8bf59ff6499fa4fb285ad7b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindowRect:
+    serializedVersion: 2
+    x: 643.6607
+    y: 523.5359
+    width: 200
+    height: 160
+  WindowTitle: Dialog
+  SelectedNodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    Occupied: 0
+    Parent: {fileID: 0}
+    ConnectedNode: {fileID: 0}
+  NodeInput:
+    Rectangle:
+      serializedVersion: 2
+      x: 704.0304
+      y: 671.4439
+      width: 25
+      height: 25
+    Occupied: 0
+    Parent: {fileID: 6126988591235895860}
+    ConnectedNodes: []
+  IsDeleted: 0
+  currentDialog:
+    CharactertActions: []
+    CharacterAnimations: []
+    CharacterText:
+      Character: 0
+      Text: 
+  NodeOutput:
+    Rectangle:
+      serializedVersion: 2
+      x: 869.0304
+      y: 781.4439
+      width: 25
+      height: 25
+    Occupied: 0
+    Parent: {fileID: 6126988591235895860}
+    ConnectedNode: {fileID: 0}
