@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEditor.Callbacks;
 using UnityEngine;
@@ -85,6 +86,11 @@ namespace Dialog.Editor {
         private static void ErrorMessage(string body)
         {
             EditorUtility.DisplayDialog("Error", body, "OK");
+        }
+
+        public StartNode GetStartNode()
+        {
+            return (StartNode)Nodes.FirstOrDefault(n => n is StartNode);
         }
     }
 }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowRect:
     serializedVersion: 2
-    x: 957.7784
+    x: 957.77844
     y: 176.47699
     width: 200
     height: 160
@@ -32,8 +32,8 @@ MonoBehaviour:
   NodeInput:
     Rectangle:
       serializedVersion: 2
-      x: 1018.1481
-      y: 324.385
+      x: 1398.8535
+      y: 375.42786
       width: 25
       height: 25
     Occupied: 1
@@ -50,8 +50,8 @@ MonoBehaviour:
   NodeOutput:
     Rectangle:
       serializedVersion: 2
-      x: 1183.1481
-      y: 434.385
+      x: 1563.8535
+      y: 485.42786
       width: 25
       height: 25
     Occupied: 0
@@ -100,8 +100,8 @@ MonoBehaviour:
   NodeOutput:
     Rectangle:
       serializedVersion: 2
-      x: 546.7946
-      y: 524.45715
+      x: 927.5
+      y: 575.5
       width: 25
       height: 25
     Occupied: 1
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowRect:
     serializedVersion: 2
-    x: 623.6607
+    x: 623.66077
     y: -32.934753
     width: 200
     height: 160
@@ -157,8 +157,8 @@ MonoBehaviour:
   NodeInput:
     Rectangle:
       serializedVersion: 2
-      x: 684.0304
-      y: 114.97327
+      x: 1064.7358
+      y: 166.01611
       width: 25
       height: 25
     Occupied: 0
@@ -174,8 +174,8 @@ MonoBehaviour:
   NodeOutput:
     Rectangle:
       serializedVersion: 2
-      x: 849.0304
-      y: 224.97327
+      x: 1229.7358
+      y: 276.0161
       width: 25
       height: 25
     Occupied: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowRect:
     serializedVersion: 2
-    x: 643.6607
+    x: 643.66077
     y: 523.5359
     width: 200
     height: 160
@@ -213,8 +213,8 @@ MonoBehaviour:
   NodeInput:
     Rectangle:
       serializedVersion: 2
-      x: 704.0304
-      y: 671.4439
+      x: 1084.7358
+      y: 722.48676
       width: 25
       height: 25
     Occupied: 0
@@ -230,8 +230,8 @@ MonoBehaviour:
   NodeOutput:
     Rectangle:
       serializedVersion: 2
-      x: 869.0304
-      y: 781.4439
+      x: 1249.7358
+      y: 832.48676
       width: 25
       height: 25
     Occupied: 0
